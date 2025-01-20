@@ -1,1 +1,1 @@
-yuh
+print("yuh")
