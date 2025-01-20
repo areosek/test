@@ -13,8 +13,6 @@ impossible for now(?)
 - nvg is accessible only for monster (prob need to wait for API update)
 
 ]]
-
-
 if shared.monster_data ~= nil then --Unloads(kidna?) if script was before in console.
 	warn("monster script is already loaded, disconnecting")
 	shared.monster_data.started = nil
@@ -23,7 +21,6 @@ if shared.monster_data ~= nil then --Unloads(kidna?) if script was before in con
 	shared.monster_data.player_joined:Disconnect()
 	shared.monster_data.player_chatted:Disconnect()
 else
-    shared.monster_data = nil
     shared.monster_data.started = false -- Variable to check if game started. Doesn't spawn joined players as spectators when game weren't started.
     shared.monster_data.weaponary = {
         ["primary"] = {
