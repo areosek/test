@@ -102,13 +102,13 @@ else
 
     local function randomize_weapons(player)
         if player.get_team() == "defender" then -- Military weapons
-        local primary_num = math.random(1,#weaponary["primary"])
-        local secondary_num = math.random(1,#weaponary["secondary"])
-        local setup_primary = weapons.get_setup_from_code(weaponary["primary"][primary_num]["code"])
-        local setup_secondary = weapons.get_setup_from_code(weaponary["secondary"][secondary_num]["code"])
+        local primary_num = math.random(1,#shared.monster_data.weaponary["primary"])
+        local secondary_num = math.random(1,#shared.monster_data.weaponary["secondary"])
+        local setup_primary = weapons.get_setup_from_code(shared.monster_data.weaponary["primary"][primary_num]["code"])
+        local setup_secondary = weapons.get_setup_from_code(shared.monster_data.weaponary["secondary"][secondary_num]["code"])
 
-        player.set_weapon("primary",weaponary["primary"][primary_num]["weapon"],setup_primary.data.data)
-        player.set_weapon("secondary",weaponary["secondary"][secondary_num]["weapon"],setup_secondary.data.data)
+        player.set_weapon("primary",shared.monster_data.weaponary["primary"][primary_num]["weapon"],setup_primary.data.data)
+        player.set_weapon("secondary",shared.monster_data.weaponary["secondary"][secondary_num]["weapon"],setup_secondary.data.data)
         player.set_weapon("throwable1","nothing")
         player.set_weapon("throwable2","nothing")
         player.equip_weapon("primary")
