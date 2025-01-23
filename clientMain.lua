@@ -1,5 +1,5 @@
 on_server_event:Connect(function(player)
-	shared.monster = player
+	shared.monster[1] = player
 end)
 
 local client_input_group = ClientInputGroup.new()
