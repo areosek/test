@@ -91,6 +91,7 @@ else
         chat.send_ingame_notification("round ended")
         players.reset_ragdolls()
         for _, player in pairs(players.get_all()) do
+            player.fire_client("")
             player.set_team("defender")
             player.set_speed(1)
             player.set_initial_health(100)
@@ -139,7 +140,7 @@ else
             sharedvars.plr_magazines = (3 + #playerList) -- Decide of number of magazines on start. With increasing playtime number of spare mags also increase with player count.
             sharedvars.plr_nv_color = Color3.fromRGB(200, 55, 50) -- Red nvg.
             sharedvars.gm_team_balancing_threshold = 50
-            sharedvars.plr_disable_nvg = false -- nvg accessible only for monster TODO.
+            sharedvars.plr_disable_nvg = true -- nvg accessible only for monster TODO.
             map.set_preset("darkworld") -- Setting spooky, scary night, booooo.
             map.set_time(1)
             gamemode.force_set_gamemode("team_deathmatch")
