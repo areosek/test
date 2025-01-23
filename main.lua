@@ -34,49 +34,49 @@ else
     shared.monster_data.weaponary = {
         ["primary"] = {
             [1] = {
-                ["code"] = "a13c-0231-gc2e-edb6-28f0-a743-59wq-8960",
+                ["code"] = "418q-0233-enww-ehm2-gc6a-195c-g7ab-f28a",
                 ["weapon"] = "M4A1",
             },
             [2] = {
-                ["code"] = "3e08-0231-wm5m-m4ab-bwm3-zeg8-8dnw-016f",
+                ["code"] = "418q-0233-enww-ehm2-gc6a-195c-g7ab-f28a",
                 ["weapon"] = "M4A1",
             },
             [3] = {
-                ["code"] = "qbbn-0231-hhz1-1naz-820b-3f01-no1d-42ef",
+                ["code"] = "418q-0233-enww-ehm2-gc6a-195c-g7ab-f28a",
                 ["weapon"] = "M4A1",
             },
             [4] = {
-                ["code"] = "3g5c-0231-cc71-deg8-wgq5-wgaq-ozgq-zmcc",
+                ["code"] = "c218-0233-42fa-qeco-w4am-m3ch-f74h-8574",
                 ["weapon"] = "Remington870",
             },
             [5] = {
-                ["code"] = "936n-0231-6dg0-w2q2-66e1-3boe-da5b-88qg",
+                ["code"] = "1353-0233-heo1-0qzf-06ez-6dnf-gezh-egg1",
                 ["weapon"] = "AK308",
             },
             [6] = {
-                ["code"] = "ca8m-0231-557d-4592-7e3f-na0w-n6md-en09",
+                ["code"] = "q272-0233-8fdg-70b1-1af4-3maf-8b59-aee9",
                 ["weapon"] = "AK74N",
             },
             [7] = {
-                ["code"] = "fb4z-0231-o183-nma4-cc0z-wg92-3dh9-56eq",
+                ["code"] = "g4w4-0233-aq8m-abge-7z3e-hgz0-heha-g49g",
                 ["weapon"] = "AUG_A3",
             },
             [8] = {
-                ["code"] = "hh8o-0231-31af-6o2z-4gdo-7nzc-q67z-332d",
+                ["code"] = "2392-0233-5h5h-2cnb-98mb-3gb0-hmwd-baca",
                 ["weapon"] = "SCARH",
             },
             [9] = {
-                ["code"] = "4bza-0231-ff2z-2gda-64zf-za0a-n363-o9n0",
+                ["code"] = "5whm-0233-o7d8-8gc8-hdnn-w21h-q9zm-fm1c",
                 ["weapon"] = "Vector",
             },
         },
         ["secondary"] = {
             [1] = {
-                ["code"] = "zohf-0231-zn2q-cf61-b56f-1452-2h01-cah3",
+                ["code"] = "0q5b-0233-c4cw-8nqc-m73n-5dd7-5n7w-2935",
                 ["weapon"] = "EDC_X9",
             },
             [2] = {
-                ["code"] = "o1fg-0231-8g4a-h4f2-ow2b-9nbz-fb71-4n2g",
+                ["code"] = "c23w-0233-81wb-d8g3-e9c3-z546-b5e8-mdb0",
                 ["weapon"] = "Glock17",
             },
         }
