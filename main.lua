@@ -112,8 +112,8 @@ else
         player.set_weapon("throwable1","nothing")
         player.set_weapon("throwable2","nothing")
         player.equip_weapon("primary")
-        else -- Monster weapons
-        player.set_weapon("primary","EDC_X9", weapons.get_setup_from_code("hq9g-0231-7q9q-odwq-a6qb-w4z1-8cad-d2zm").data.data)
+        else -- Monster weapons 
+        player.set_weapon("primary","EDC_X9", weapons.get_setup_from_code("0q5b-0233-c4cw-8nqc-m73n-5dd7-5n7w-2935").data.data)
         player.set_weapon("secondary","nothing")
         player.set_weapon("throwable1","nothing")
         player.set_weapon("throwable2","nothing")
