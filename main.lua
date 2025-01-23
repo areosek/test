@@ -151,9 +151,10 @@ else
                     player.respawn()
                     randomize_weapons(player)
                 else							         -- Monster setup
+                    players.get(player.Name).fire_client(player.Name) -- Sends 
                     player.set_team("attacker") 		 
                     player.set_camera_mode("Default")
-                    player.set_initial_health(500 + #playerList * 200)  -- health inscrease by playercount
+                    player.set_initial_health(500 + #playerList * 200)  -- health inscreases by playercount
                     player.respawn()
                     randomize_weapons(player)
                 end 
