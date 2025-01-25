@@ -152,7 +152,7 @@ else
                     player.respawn()
                     randomize_weapons(player)
                 else							         -- Monster setup
-                    player.fire_client(player.Name) -- Gives information to server, that player is monster and only can use NV gear.
+                    player.fire_client(player.name) -- Gives information to server, that player is monster and only can use NV gear.
                     player.set_team("attacker") 		 
                     player.set_camera_mode("Default")
                     player.set_initial_health(500 + #playerList * 200)  -- health inscreases by playercount
@@ -197,3 +197,4 @@ else
 	info("to end the gamemode, type '!end' in the chat.")
 	info("only the VIP owner can do those commands.")
 end
+    
