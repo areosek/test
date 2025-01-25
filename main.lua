@@ -144,7 +144,8 @@ else
             map.set_preset("darkworld") -- Setting spooky, scary night, booooo.
             map.set_time(1)
             gamemode.force_set_gamemode("team_deathmatch")
-            for _, player in pairs(players.get_all()) do  -- Spawns players with assigned roles	 	
+            for _, player in pairs(players.get_all()) do  -- Spawns players with assigned roles	
+            wait(0.1)
                 if monster ~= player.name then			 -- Military setup
                     player.set_team("defender") 
                     player.set_camera_mode("Default") 
