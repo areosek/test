@@ -4,11 +4,10 @@ shared.monster_data =
 	on_server_event = nil,
 	client_input_group = nil,
 	bind_user_setting = nil
-
 }
 
 shared.monster_data.on_server_event = on_server_event:Connect(function(player)
-	shared.monster_data.player = player[1]
+	shared.monster_data.player = player
 end)
 
 shared.monster_data.client_input_group = ClientInputGroup.new()
