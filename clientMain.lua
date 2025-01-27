@@ -12,7 +12,7 @@ end)
 
 shared.monster_data.client_input_group = ClientInputGroup.new()
 
-shared.monster_data.bind_user_setting = shared.client_input_group:bind_user_setting(function()
+shared.monster_data.bind_user_setting = shared.monster_data.client_input_group:bind_user_setting(function()
 	if shared.monster_data.player == local_player then
 		if framework.character.is_nv_head_gear_enabled() == false then
 			framework.character.set_nv_enabled(true)
