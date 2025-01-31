@@ -1,3 +1,4 @@
+task.wait(10)
 shared.monster_data = 
 {
 	player = nil,
@@ -8,6 +9,7 @@ shared.monster_data =
 
 shared.monster_data.on_server_event = on_server_event:Connect(function(player)
 	shared.monster_data.player = player
+	print(player)
 end)
 
 shared.monster_data.client_input_group = ClientInputGroup.new()
