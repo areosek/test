@@ -1,4 +1,3 @@
-task.wait(20)
 shared.monster_data = 
 {
 	player = nil,
